@@ -1,0 +1,25 @@
+services:
+  Tae_opencv-docker-lab:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: tae_opencv-lab:1.0
+
+    container_name: Tae_opencv-lab-container
+
+    working_dir: /Tae_opencv-docker-lab
+
+    volumes:
+      - ./app:/Tae_opencv-docker-lab/app
+      - ./data:/Tae_opencv-docker-lab/data
+      - ./outputs:/Tae_opencv-docker-lab/outputs
+      - ./notebooks:/Tae_opencv-docker-lab/notebooks
+
+    ports:
+      - "8888:8888"
+
+    stdin_open: true
+    tty: true
+
+    command: /bin/bash
