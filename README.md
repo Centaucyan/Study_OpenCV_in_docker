@@ -3,6 +3,7 @@
 * Study OpenCV
 ---
 ## Environment
+* Code editor : Visual Studio Code
 * Base docker image : python:3.11-slim
     * Linux environment
 * Required Library
