@@ -1,6 +1,6 @@
 ## Description
-* 도커 이미지 생성을 위한 Dockerfile 작성 for OpenCV
-* Study OpenCV
+* Create Dockerfile for Docker Image Creation for OpenCV
+* Self-study basic knowledge about OpenCV
 ---
 ## Environment
 * Code editor : Visual Studio Code
